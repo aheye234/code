@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-2">
+        <div class="header-2">
+            <h3>ผลงานแผนก</h3>
+        </div>
+        <div class="Boxes">
+            <div class="Box">
+                <a href="https://www.facebook.com/share/p/3PZLBF6MUKgAXwGJ/">
+                    <img src="./img/1.jpg" height="200px" width="300px">
+                </a>
+            </div>
+            <div class="Box">
+                <a href="https://www.facebook.com/technicsingburi/posts/pfbid02TEc9t5BcjcYb55RofwN75EnpWxr795efejrch7So1zudSEzihnM6sh3qiZPLBQK3l">
+                    <img src="./img/2.jpg" height="200px" width="300">  
+                </a>
+            </div>
+            <div class="Box">
+                <a href="https://www.facebook.com/technicsingburi/posts/pfbid02fkxpv1vfKf7YthMjaPCJ7Axwd2biZisWyoHzngHnzqeBFHatbwbgTw4EzPgdBcR4l">
+                    <img src="./img/3.jpg" height="200px" width="275px">    
+                </a>   
+            </div>
+            <div class="Box">
+                <a href="https://www.facebook.com/share/p/PFcVrrL8Fvj9Ar2w/">
+                    <img src="./img/4.jpg" height="200px" width="275px">   
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    .container-2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif; 
+}
+
+
+.header-2 h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.header-2 {
+    background-color: #800000; 
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+.header-2 h3 {
+    font-size: 28px;
+    color: #ffffff; 
+    margin: 0;
+}
+
+
+.Boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Box {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Box img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+</style>
